@@ -9,8 +9,6 @@
         display: block;
         margin: auto;
         padding: 3em;
-        /* line-height: 3em; */
-        /* background-color: rgba(0, 255, 255, 0.079); */
         background-image: linear-gradient(rgba(86, 86, 84, 0.656) 15%, rgba(190, 95, 95, 0.745), rgba(255, 255, 255, 0.572)), url("../images/traffic-jam-on-highway.jpg");
         width: 50%;
         box-shadow: 0 0 40px 1px #808080;
@@ -36,9 +34,9 @@
         border: 1px solid;
         width: 2em;
       } */
-    </style>
-  
+    </style> 
 </head>
+
 <body>
 <div class="container">
   <h1 class="display-6 mb-3">Shopping List</h1> <br>
@@ -49,9 +47,11 @@
     <button onclick="addItem()" class="btn btn-dark">Add Item</button>
     <p>Total: ₦<span id="total">0.00</span></p>
   </div>
-  <ul id="shopping-list" style="list-style-type: none;"></ul>
-
+  <ul id="shopping-list" style="list-style-type: none;">
+    <input type="text">
+  </ul>
 </div>
+
 <script src="./shopping-list.js"></script>
 
 </body>
